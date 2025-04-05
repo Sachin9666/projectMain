@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    border: 1.4px solid black;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+select {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+#para {
+    margin: 40px;
+}
+
+#btn {
+    padding: 16px;
+    background-color: blue;
+    color: white;
+    box-shadow: inset;
+}
+
+.aTag {
+    background-color: rgb(10, 168, 241);
+    color: aliceblue;
+}
